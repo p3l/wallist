@@ -1,0 +1,681 @@
+
+  <script type='text/javascript' src='../jquery.js'></script>
+  <script type='text/javascript' src='../scoreboard.js'></script>
+	<link rel='stylesheet' type='text/css' href='../scoreboard.css' />
+<table cellspacing='0' class='wall_table'>
+<thead>
+  <tr class='wall_row_header'>
+    <th>&nbsp;</th> <th>#</th> <th class='wall_header_name'>Namn</th>
+    <th class='wall_header_country'>Land</th>
+    <th class='wall_header_club'>Klubb</th>
+    <th class='wall_header_rank'>Rank</th>
+    <th class='wall_header_score' colspan='2'>MMS</th>
+    <th class='wall_header_round' colspan='2'>1</th>
+    <th class='wall_header_round' colspan='2'>2</th>
+    <th class='wall_header_round' colspan='2'>3</th>
+    <th class='wall_header_round' colspan='2'>4</th>
+    <th class='wall_header_round' colspan='2'>5</th>
+    <th class='wall_header_round' colspan='2'>6</th>
+    <th class='wall_header_pt'><acronym title='Poäng'>Pt.</acronym></th>
+    <th class='wall_header_sos' colspan='2'><acronym title='Sum of Opponents Score'>SOS</acronym</th>
+  </tr>
+</thead>
+<tbody>
+  <tr id='sb_1' class='wall_row_odd'>
+    <td><img src='../star.gif' alt='*'/></td>
+    <td class='wall_place'>1</td>
+    <td class='wall_name'>Ragnarsson, Carl Johan</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Lun</td>
+    <td class='wall_rank'>3D</td><td class='wall_mms'>35</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Bergsåker, Henric [1D]'>11+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Åkerblom, Charlie [3D]'>7+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Ouchterlony, Erik [3D]'>6+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Blomback, Fredrik [4D]'>2-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Börjesson, Martin [2D]'>5+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Sannes, Pål [4D]'>3+</acronym></td><td></td>
+    <td class='wall_pt'>5</td>    <td class='wall_round_sos'>201</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_2' class='wall_row_even'>
+    <td><img src='../star.gif' alt='*'/></td>
+    <td class='wall_place'>2</td>
+    <td class='wall_name'>Blomback, Fredrik</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Sto</td>
+    <td class='wall_rank'>4D</td><td class='wall_mms'>35</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Börjesson, Martin [2D]'>5-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Karlsson, John [3D]'>8+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Li, Martin [5D]'>10+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Ragnarsson, Carl Johan [3D]'>1+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Åkerblom, Charlie [3D]'>7+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Strand, Krister [1D]'>9+</acronym></td><td></td>
+    <td class='wall_pt'>5</td>    <td class='wall_round_sos'>200</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_3' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>3</td>
+    <td class='wall_name'>Sannes, Pål</td>
+    <td class='wall_country'>No</td>
+    <td class='wall_club'>Osl</td>
+    <td class='wall_rank'>4D</td><td class='wall_mms'>34</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Strand, Krister [1D]'>9+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Börjesson, Martin [2D]'>5+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Almroth, Klas [4D]'>4-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Åkerblom, Charlie [3D]'>7+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Ouchterlony, Erik [3D]'>6+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ragnarsson, Carl Johan [3D]'>1-</acronym></td><td></td>
+    <td class='wall_pt'>4</td>    <td class='wall_round_sos'>201</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_4' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>4</td>
+    <td class='wall_name'>Almroth, Klas</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Göt</td>
+    <td class='wall_rank'>4D</td><td class='wall_mms'>34</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Karlsson, Peter [1D]'>13+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Weiland, Marcus [2D]'>12-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Sannes, Pål [4D]'>3+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ouchterlony, Erik [3D]'>6-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Karlsson, John [3D]'>8+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Börjesson, Martin [2D]'>5+</acronym></td><td></td>
+    <td class='wall_pt'>4</td>    <td class='wall_round_sos'>197</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_5' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>5</td>
+    <td class='wall_name'>Börjesson, Martin</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Göt</td>
+    <td class='wall_rank'>2D</td><td class='wall_mms'>33</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Blomback, Fredrik [4D]'>2+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Sannes, Pål [4D]'>3-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Strand, Krister [1D]'>9+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Karlsson, Peter [1D]'>13+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ragnarsson, Carl Johan [3D]'>1-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Almroth, Klas [4D]'>4-</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>203</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_6' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>6</td>
+    <td class='wall_name'>Ouchterlony, Erik</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Lin</td>
+    <td class='wall_rank'>3D</td><td class='wall_mms'>33</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Karlsson, John [3D]'>8+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Li, Martin [5D]'>10+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ragnarsson, Carl Johan [3D]'>1-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Almroth, Klas [4D]'>4+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Sannes, Pål [4D]'>3-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Åkerblom, Charlie [3D]'>7-</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>202</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_7' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>7</td>
+    <td class='wall_name'>Åkerblom, Charlie</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Nor</td>
+    <td class='wall_rank'>3D</td><td class='wall_mms'>33</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Chung, Kenny [1K]'>14+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ragnarsson, Carl Johan [3D]'>1-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Weiland, Marcus [2D]'>12+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Sannes, Pål [4D]'>3-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Blomback, Fredrik [4D]'>2-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Ouchterlony, Erik [3D]'>6+</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>201</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_8' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>8</td>
+    <td class='wall_name'>Karlsson, John</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Göt</td>
+    <td class='wall_rank'>3D</td><td class='wall_mms'>33</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ouchterlony, Erik [3D]'>6-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Blomback, Fredrik [4D]'>2-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Keskisärkkä, Robin [2K]'>16+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Li, Martin [5D]'>10+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Almroth, Klas [4D]'>4-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Weiland, Marcus [2D]'>12+</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>198</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_9' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>9</td>
+    <td class='wall_name'>Strand, Krister</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Väs</td>
+    <td class='wall_rank'>1D</td><td class='wall_mms'>33</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Sannes, Pål [4D]'>3-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Karlsson, Peter [1D]'>13+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Börjesson, Martin [2D]'>5-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Weiland, Marcus [2D]'>12+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Adamsson, Peter [2K]'>15+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Blomback, Fredrik [4D]'>2-</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>198</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_10' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>10</td>
+    <td class='wall_name'>Li, Martin</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Bor</td>
+    <td class='wall_rank'>5D</td><td class='wall_mms'>33</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Weiland, Marcus [2D]'>12+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ouchterlony, Erik [3D]'>6-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Blomback, Fredrik [4D]'>2-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Karlsson, John [3D]'>8-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Eriksson, Mats [2K]'>17+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Fridh, Olof [2K]'>18+</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>195</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_11' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>11</td>
+    <td class='wall_name'>Bergsåker, Henric</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Sto</td>
+    <td class='wall_rank'>1D</td><td class='wall_mms'>33</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ragnarsson, Carl Johan [3D]'>1-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Okänt resultat () mot  []'></acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Eriksson, Mats [2K]'>17+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Okänt resultat () mot  []'></acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Okänt resultat () mot  []'></acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Okänt resultat () mot  []'></acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>186</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_12' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>12</td>
+    <td class='wall_name'>Weiland, Marcus</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Sto</td>
+    <td class='wall_rank'>2D</td><td class='wall_mms'>32</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Li, Martin [5D]'>10-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Almroth, Klas [4D]'>4+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Åkerblom, Charlie [3D]'>7-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Strand, Krister [1D]'>9-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Keskisärkkä, Robin [2K]'>16+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Karlsson, John [3D]'>8-</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>197</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_13' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>13</td>
+    <td class='wall_name'>Karlsson, Peter</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Sto</td>
+    <td class='wall_rank'>1D</td><td class='wall_mms'>32</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Almroth, Klas [4D]'>4-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Strand, Krister [1D]'>9-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Chung, Kenny [1K]'>14+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Börjesson, Martin [2D]'>5-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Okänt resultat () mot  []'></acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Okänt resultat () mot  []'></acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>192</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_14' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>14</td>
+    <td class='wall_name'>Chung, Kenny</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Nor</td>
+    <td class='wall_rank'>1K</td><td class='wall_mms'>32</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Åkerblom, Charlie [3D]'>7-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Kylmänen, Kai [3K]'>21+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Karlsson, Peter [1D]'>13-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Adamsson, Peter [2K]'>15-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Stoehr, Marc [2K]'>22+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Keskisärkkä, Robin [2K]'>16+</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>188</td><td class='wall_round_dec'>½</td>
+  </tr>
+  <tr id='sb_15' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>15</td>
+    <td class='wall_name'>Adamsson, Peter</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Sto</td>
+    <td class='wall_rank'>2K</td><td class='wall_mms'>32</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Keskisärkkä, Robin [2K]'>16-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Hjalmarsson, Mats [3K]'>25+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Almgren, Tomas [2K]'>24+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Chung, Kenny [1K]'>14+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Strand, Krister [1D]'>9-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Eriksson, Mats [2K]'>17+</acronym></td><td></td>
+    <td class='wall_pt'>4</td>    <td class='wall_round_sos'>186</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_16' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>16</td>
+    <td class='wall_name'>Keskisärkkä, Robin</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Nor</td>
+    <td class='wall_rank'>2K</td><td class='wall_mms'>31</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Adamsson, Peter [2K]'>15+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Fridh, Olof [2K]'>18+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Karlsson, John [3D]'>8-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Stoehr, Marc [2K]'>22+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Weiland, Marcus [2D]'>12-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Chung, Kenny [1K]'>14-</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>190</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_17' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>17</td>
+    <td class='wall_name'>Eriksson, Mats</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Väs</td>
+    <td class='wall_rank'>2K</td><td class='wall_mms'>31</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Almgren, Tomas [2K]'>24+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Vu, Hoang [2K]'>23+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Bergsåker, Henric [1D]'>11-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Fridh, Olof [2K]'>18+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Li, Martin [5D]'>10-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Adamsson, Peter [2K]'>15-</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>189</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_18' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>18</td>
+    <td class='wall_name'>Fridh, Olof</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Fal</td>
+    <td class='wall_rank'>2K</td><td class='wall_mms'>31</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Stoehr, Marc [2K]'>22+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Keskisärkkä, Robin [2K]'>16-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Gong, Henning [3K]'>19+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Eriksson, Mats [2K]'>17-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Vu, Hoang [2K]'>23+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Li, Martin [5D]'>10-</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>186</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_19' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>19</td>
+    <td class='wall_name'>Gong, Henning</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Nor</td>
+    <td class='wall_rank'>3K</td><td class='wall_mms'>31</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Hjalmarsson, Mats [3K]'>25+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Stoehr, Marc [2K]'>22-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Fridh, Olof [2K]'>18-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Böttiger, Harald [2K]'>20+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Almgren, Tomas [2K]'>24+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Vu, Hoang [2K]'>23+</acronym></td><td></td>
+    <td class='wall_pt'>4</td>    <td class='wall_round_sos'>181</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_20' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>20</td>
+    <td class='wall_name'>Böttiger, Harald</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Sto</td>
+    <td class='wall_rank'>2K</td><td class='wall_mms'>31</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Vu, Hoang [2K]'>23-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Almgren, Tomas [2K]'>24-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Kylmänen, Kai [3K]'>21+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Gong, Henning [3K]'>19-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Eriksson, Mikael [5K]'>27+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Stoehr, Marc [2K]'>22+</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>179</td><td class='wall_round_dec'>½</td>
+  </tr>
+  <tr id='sb_21' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>21</td>
+    <td class='wall_name'>Kylmänen, Kai</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Sto</td>
+    <td class='wall_rank'>3K</td><td class='wall_mms'>30</td><td class='wall_mms_dec'>½</td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Bing, Jakob [5K]'>28+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Chung, Kenny [1K]'>14-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Böttiger, Harald [2K]'>20-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Söderström, Jan [5K]'>29+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Okänt resultat () mot  []'></acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Hjalmarsson, Mats [3K]'>25+</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>174</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_22' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>22</td>
+    <td class='wall_name'>Stoehr, Marc</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Sto</td>
+    <td class='wall_rank'>2K</td><td class='wall_mms'>30</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Fridh, Olof [2K]'>18-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Gong, Henning [3K]'>19+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Vu, Hoang [2K]'>23+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Keskisärkkä, Robin [2K]'>16-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Chung, Kenny [1K]'>14-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Böttiger, Harald [2K]'>20-</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>186</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_23' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>23</td>
+    <td class='wall_name'>Vu, Hoang</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Göt</td>
+    <td class='wall_rank'>2K</td><td class='wall_mms'>30</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Böttiger, Harald [2K]'>20+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Eriksson, Mats [2K]'>17-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Stoehr, Marc [2K]'>22-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Almgren, Tomas [2K]'>24+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Fridh, Olof [2K]'>18-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Gong, Henning [3K]'>19-</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>184</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_24' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>24</td>
+    <td class='wall_name'>Almgren, Tomas</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Sto</td>
+    <td class='wall_rank'>2K</td><td class='wall_mms'>30</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Eriksson, Mats [2K]'>17-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Böttiger, Harald [2K]'>20+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Adamsson, Peter [2K]'>15-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Vu, Hoang [2K]'>23-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Gong, Henning [3K]'>19-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Eriksson, Mikael [5K]'>27+</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>183</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_25' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>25</td>
+    <td class='wall_name'>Hjalmarsson, Mats</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Sto</td>
+    <td class='wall_rank'>3K</td><td class='wall_mms'>29</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Gong, Henning [3K]'>19-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Adamsson, Peter [2K]'>15-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Eriksson, Mikael [5K]'>27-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Sang, Liya [6K]'>30+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Söderström, Jan [5K]'>29+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Kylmänen, Kai [3K]'>21-</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>175</td><td class='wall_round_dec'>½</td>
+  </tr>
+  <tr id='sb_26' class='wall_row_even'>
+    <td><img src='../star.gif' alt='*'/></td>
+    <td class='wall_place'>26</td>
+    <td class='wall_name'>Johansson, Anders</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Väs</td>
+    <td class='wall_rank'>6K</td><td class='wall_mms'>29</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Lundqvist, Peter [5K]'>31+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Eriksson, Mikael [5K]'>27-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Mika, Elias [6K]'>33+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Gradin, Tomas [7K]'>35+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Sang, Liya [6K]'>30+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Söderström, Jan [5K]'>29+</acronym></td><td></td>
+    <td class='wall_pt'>5</td>    <td class='wall_round_sos'>160</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_27' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>27</td>
+    <td class='wall_name'>Eriksson, Mikael</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Sto</td>
+    <td class='wall_rank'>5K</td><td class='wall_mms'>28</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Söderström, Jan [5K]'>29-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Johansson, Anders [6K]'>26+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Hjalmarsson, Mats [3K]'>25+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Bing, Jakob [5K]'>28+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Böttiger, Harald [2K]'>20-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Almgren, Tomas [2K]'>24-</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>174</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_28' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>28</td>
+    <td class='wall_name'>Bing, Jakob</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Göt</td>
+    <td class='wall_rank'>5K</td><td class='wall_mms'>28</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Kylmänen, Kai [3K]'>21-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Lundqvist, Peter [5K]'>31+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Söderström, Jan [5K]'>29-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Eriksson, Mikael [5K]'>27-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Mika, Elias [6K]'>33+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Sang, Liya [6K]'>30+</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>165</td><td class='wall_round_dec'>½</td>
+  </tr>
+  <tr id='sb_29' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>29</td>
+    <td class='wall_name'>Söderström, Jan</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Nor</td>
+    <td class='wall_rank'>5K</td><td class='wall_mms'>27</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Eriksson, Mikael [5K]'>27+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Sang, Liya [6K]'>30-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Bing, Jakob [5K]'>28+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Kylmänen, Kai [3K]'>21-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Hjalmarsson, Mats [3K]'>25-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Johansson, Anders [6K]'>26-</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>171</td><td class='wall_round_dec'>½</td>
+  </tr>
+  <tr id='sb_30' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>30</td>
+    <td class='wall_name'>Sang, Liya</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Bor</td>
+    <td class='wall_rank'>6K</td><td class='wall_mms'>27</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Mika, Elias [6K]'>33+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Söderström, Jan [5K]'>29+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Lundqvist, Peter [5K]'>31+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Hjalmarsson, Mats [3K]'>25-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Johansson, Anders [6K]'>26-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Bing, Jakob [5K]'>28-</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>166</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_31' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>31</td>
+    <td class='wall_name'>Lundqvist, Peter</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Gäv</td>
+    <td class='wall_rank'>5K</td><td class='wall_mms'>27</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Johansson, Anders [6K]'>26-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Bing, Jakob [5K]'>28-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Sang, Liya [6K]'>30-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Åhs, Robert [7K]'>32-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Li, Sten [8K]'>34+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Ahlström, Mattias [7K]'>36+</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>162</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_32' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>32</td>
+    <td class='wall_name'>Åhs, Robert</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Kar</td>
+    <td class='wall_rank'>7K</td><td class='wall_mms'>27</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Li, Sten [8K]'>34-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Lindgren, Sofia [8K]'>37-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Ahlström, Mattias [7K]'>36+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Lundqvist, Peter [5K]'>31+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Gradin, Tomas [7K]'>35+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Mika, Elias [6K]'>33+</acronym></td><td></td>
+    <td class='wall_pt'>4</td>    <td class='wall_round_sos'>154</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_33' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>33</td>
+    <td class='wall_name'>Mika, Elias</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Upp</td>
+    <td class='wall_rank'>6K</td><td class='wall_mms'>26</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Sang, Liya [6K]'>30-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Ahlström, Mattias [7K]'>36+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Johansson, Anders [6K]'>26-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Lindgren, Sofia [8K]'>37+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Bing, Jakob [5K]'>28-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Åhs, Robert [7K]'>32-</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>161</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_34' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>34</td>
+    <td class='wall_name'>Li, Sten</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Bor</td>
+    <td class='wall_rank'>8K</td><td class='wall_mms'>26</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Åhs, Robert [7K]'>32+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Gradin, Tomas [7K]'>35-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Lindholm, Joakim [14K]'>38+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Ahlström, Mattias [7K]'>36+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Lundqvist, Peter [5K]'>31-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Lindgren, Sofia [8K]'>37+</acronym></td><td></td>
+    <td class='wall_pt'>4</td>    <td class='wall_round_sos'>154</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_35' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>35</td>
+    <td class='wall_name'>Gradin, Tomas</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Lun</td>
+    <td class='wall_rank'>7K</td><td class='wall_mms'>25</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ahlström, Mattias [7K]'>36-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Li, Sten [8K]'>34+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Lindgren, Sofia [8K]'>37+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Johansson, Anders [6K]'>26-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Åhs, Robert [7K]'>32-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Lindholm, Joakim [14K]'>38-</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>157</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_36' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>36</td>
+    <td class='wall_name'>Ahlström, Mattias</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Nor</td>
+    <td class='wall_rank'>7K</td><td class='wall_mms'>25</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Gradin, Tomas [7K]'>35+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Mika, Elias [6K]'>33-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Åhs, Robert [7K]'>32-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Li, Sten [8K]'>34-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Woodhouse, Alexander [9K]'>40+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Lundqvist, Peter [5K]'>31-</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>155</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_37' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>37</td>
+    <td class='wall_name'>Lindgren, Sofia</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Göt</td>
+    <td class='wall_rank'>8K</td><td class='wall_mms'>25</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Woodhouse, Alexander [9K]'>40+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Åhs, Robert [7K]'>32+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Gradin, Tomas [7K]'>35-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Mika, Elias [6K]'>33-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Edlund, Henrik [14K]'>39+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Li, Sten [8K]'>34-</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>153</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_38' class='wall_row_even'>
+    <td><img src='../star.gif' alt='*'/></td>
+    <td class='wall_place'>38</td>
+    <td class='wall_name'>Lindholm, Joakim</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Väs</td>
+    <td class='wall_rank'>14K</td><td class='wall_mms'>25</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Höglund, Sebastian [15K]'>42+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Modigh, Sara [14K]'>44+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Li, Sten [8K]'>34-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Ljung, Christoffer [16K]'>41+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Berglund, Sara-Linn [14K]'>46+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Gradin, Tomas [7K]'>35+</acronym></td><td></td>
+    <td class='wall_pt'>5</td>    <td class='wall_round_sos'>141</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_39' class='wall_row_odd'>
+    <td><img src='../star.gif' alt='*'/></td>
+    <td class='wall_place'>39</td>
+    <td class='wall_name'>Edlund, Henrik</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Bor</td>
+    <td class='wall_rank'>14K</td><td class='wall_mms'>25</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Eriksson, Carl [18K]'>45+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Woodhouse, Alexander [9K]'>40+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Ljung, Christoffer [16K]'>41+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Modigh, Sara [14K]'>44+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Lindgren, Sofia [8K]'>37-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Höglund, Sebastian [15K]'>42+</acronym></td><td></td>
+    <td class='wall_pt'>5</td>    <td class='wall_round_sos'>139</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_40' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>40</td>
+    <td class='wall_name'>Woodhouse, Alexander</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Nor</td>
+    <td class='wall_rank'>9K</td><td class='wall_mms'>24</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Lindgren, Sofia [8K]'>37-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Edlund, Henrik [14K]'>39-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Helgesson, Calle [18K]'>47+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Kusuran, Vedad [14K]'>43+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ahlström, Mattias [7K]'>36-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Ljung, Christoffer [16K]'>41+</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>143</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_41' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>41</td>
+    <td class='wall_name'>Ljung, Christoffer</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Nor</td>
+    <td class='wall_rank'>16K</td><td class='wall_mms'>23</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Kusuran, Vedad [14K]'>43+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Berglund, Sara-Linn [14K]'>46+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Edlund, Henrik [14K]'>39-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Lindholm, Joakim [14K]'>38-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Eriksson, Carl [18K]'>45+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Woodhouse, Alexander [9K]'>40-</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>141</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_42' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>42</td>
+    <td class='wall_name'>Höglund, Sebastian</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Gäv</td>
+    <td class='wall_rank'>15K</td><td class='wall_mms'>23</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Lindholm, Joakim [14K]'>38-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Kusuran, Vedad [14K]'>43-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Okänt resultat (+!b) mot  []'>0+</acronym></td><td class='wall_round_result_judged'>!</td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Eriksson, Carl [18K]'>45+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Modigh, Sara [14K]'>44+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Edlund, Henrik [14K]'>39-</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>139</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_43' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>43</td>
+    <td class='wall_name'>Kusuran, Vedad</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Kar</td>
+    <td class='wall_rank'>14K</td><td class='wall_mms'>23</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ljung, Christoffer [16K]'>41-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Höglund, Sebastian [15K]'>42+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Eriksson, Carl [18K]'>45+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Woodhouse, Alexander [9K]'>40-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Helgesson, Calle [18K]'>47-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Berglund, Sara-Linn [14K]'>46+</acronym></td><td></td>
+    <td class='wall_pt'>3</td>    <td class='wall_round_sos'>136</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_44' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>44</td>
+    <td class='wall_name'>Modigh, Sara</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Nor</td>
+    <td class='wall_rank'>14K</td><td class='wall_mms'>22</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Helgesson, Calle [18K]'>47+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Lindholm, Joakim [14K]'>38-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Berglund, Sara-Linn [14K]'>46+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Edlund, Henrik [14K]'>39-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Höglund, Sebastian [15K]'>42-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Eriksson, Carl [18K]'>45-</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>139</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_45' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>45</td>
+    <td class='wall_name'>Eriksson, Carl</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Nor</td>
+    <td class='wall_rank'>18K</td><td class='wall_mms'>22</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Edlund, Henrik [14K]'>39-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Helgesson, Calle [18K]'>47+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Kusuran, Vedad [14K]'>43-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Höglund, Sebastian [15K]'>42-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ljung, Christoffer [16K]'>41-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Modigh, Sara [14K]'>44+</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>138</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_46' class='wall_row_even'>
+    <td></td>
+    <td class='wall_place'>46</td>
+    <td class='wall_name'>Berglund, Sara-Linn</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Väs</td>
+    <td class='wall_rank'>14K</td><td class='wall_mms'>22</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Okänt resultat (+!b) mot  []'>0+</acronym></td><td class='wall_round_result_judged'>!</td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Ljung, Christoffer [16K]'>41-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Modigh, Sara [14K]'>44-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Helgesson, Calle [18K]'>47+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Lindholm, Joakim [14K]'>38-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Kusuran, Vedad [14K]'>43-</acronym></td><td></td>
+    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>136</td><td class='wall_round_dec'></td>
+  </tr>
+  <tr id='sb_47' class='wall_row_odd'>
+    <td></td>
+    <td class='wall_place'>47</td>
+    <td class='wall_name'>Helgesson, Calle</td>
+    <td class='wall_country'>SE</td>
+    <td class='wall_club'>Gäv</td>
+    <td class='wall_rank'>18K</td><td class='wall_mms'>22</td><td class='wall_mms_dec'></td>    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Modigh, Sara [14K]'>44-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Eriksson, Carl [18K]'>45-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Woodhouse, Alexander [9K]'>40-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Förlust mot Berglund, Sara-Linn [14K]'>46-</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Vinst mot Kusuran, Vedad [14K]'>43+</acronym></td><td></td>
+    <td class='wall_round_result'><acronym class='wall_round_acronym' title='Okänt resultat (+!b) mot  []'>0+</acronym></td><td class='wall_round_result_judged'>!</td>    <td class='wall_pt'>2</td>    <td class='wall_round_sos'>134</td><td class='wall_round_dec'></td>
+  </tr>
+</tbody>
+</table>
+<p><a href=''>Källdata</a></p>

@@ -1,0 +1,47 @@
+; CL[]
+; EV[Jusandan2011]
+; PC[Stockholm]
+; DT[2011-01-15,2011-01-16]
+; KM[6.5]
+; TM[??]
+;
+   1 Sörlin Weiying          5D Sw Sto 00 0 000 000 3+/w    15+/b   8+/w    2+/b    4+/w    
+   2 Kuronen Juri            5D Fi eGo 00 0 000 000 7+/b    10+/b   4+/w    1-/w    3+/b    
+   3 Lajunen Pekka           4D Fi HGK 00 0 000 000 1-/b    9+/w    5+/b    6+/b    2-/w    
+   4 Åkerblom Charlie        4D Sw Nor 00 0 000 000 8+/b    5+/w    2-/b    9+/w    1-/b    
+   5 Ouchterlony Erik        3D Sw Lin 00 0 000 000 6+/w    4-/b    3-/w    16+/w   7+/b    
+   6 Litmanen Mikko          2D Fi KGB 00 0 000 000 5-/b    7+/w    15+/b   3-/w    11+/w   
+   7 Karttunen Reino         2D Fi eGo 00 0 000 000 2-/w    6-/b    17+/w   8+/w    5-/w    
+   8 Vanhala Simo            2D Sw OGP 00 0 000 000 4-/w    11+/w   1-/b    7-/b    10+/b   
+   9 Lappeteläinen Mikko     2D Fi eGo 00 0 000 000 15-/w   3-/b    10+/w   4-/b    13-/w   
+  10 Keipi Pekka             1D Fi Dan 00 0 000 000 16+/b   2-/w    9-/b    20+!w   8-/w    
+  11 Sandström Martin        1K Sw     00 0 000 000 17+/w   8-/b    26+/b   12+/w   6-/b    
+  12 Johansson Kim           2K Sw Fal 00 0 000 000 18+/w   16+/b   14+/b   11-/b   17+/w   
+  13 Stoehr Marc             1K Sw Sto 00 0 000 000 14-/w   19+/w   16-/b   21+/b   9+/b    
+  14 Eriksson Kristoffer     2K Sw Göt 00 0 000 000 13+/b   21+/w   12-/w   23+/b   16+/w   
+  15 Karlsson John           4D Sw Sto 00 0 000 000 9+/b    1-/w    6-/w    0=      0=   
+  16 Sigvald Joakim          1D Sw Sto 00 0 000 000 10-/w   12-/w   13+/w   5-/b    14-/b   
+  17 Nenonen Mikael          1K Fi eGo 00 0 000 000 11-/b   25+/w   7-/b    22+/b   12-/b   
+  18 Silfver Anton           2K Sw Öst 00 0 000 000 12-/b   27+/w   20-/w   24+/b   22+/b   
+  19 Collberg Jonas          2K Sw Göt 00 0 000 000 24+/w   13-/b   22-/w   26+/b   21+/w   
+  20 Chun Tang               3K Sw     00 0 000 000 29+/w   23+/b   18+/b   10-!b   0=      
+  21 Hjalmarsson Mats        2K Sw Sto 00 0 000 000 22+/w   14-/b   28+/w   13-/w   19-/b   
+  22 Svanström Mattias       2K Sw Lin 00 0 000 000 21-/b   32+/w   19+/b   17-/w   18-/w   
+  23 Gudmundsson Johanna     3K Sw Upp 00 0 000 000 28+/b   20-/w   27+/w   14-/w   29+/b   
+  24 Kylmänen Kai            2K Sw Sto 00 0 000 000 19-/b   26-/w   29+/b   18-/w   27+/b   
+  25 Holgersson Kristian     2K Sw Kar 00 0 000 000 0=      17-/b   0=      0=      0=      
+  26 Nousiainen Atte         3K Fi Por 00 0 000 000 31+/b   24+/b   11-/w   19-/w   28-/b   
+  27 Kjellström David        3K Sw Lun 00 0 000 000 30+/w   18-/b   23-/b   28+/b   24-/w   
+  28 Lundqvist Peter         3K Sw Gäv 00 0 000 000 23-/w   30+/b   21-/b   27-/w   26+/w   
+  29 Söderström Jan          3K Sw Nor 00 0 000 000 20-/b   31+/w   24-/w   32+/b   23-/w   
+  30 Sörlin Mattias          4K Sw Sto 00 0 000 000 27-/b   28-/w   31+/b   33+/b   32+/w   
+  31 Eriksson Mikael         3K Sw Sto 00 0 000 000 26-/w   29-/b   30-/w   0=      0=      
+  32 Wilenius Jim            4K Sw Sto 00 0 000 000 33+/w   22-/b   0=      29-/w   30-/b   
+  33 Laine Johan             7K Sw Sto 00 0 000 000 32-/b   34+/w   35+/b   30-/w   36-/w   
+  34 Yllman Jens             8K Sw Sto 00 0 000 000 35+/w   33-/b   36+/w   37+/b   38-/w5  
+  35 Vallgren Anders         8K Sw Upp 00 0 000 000 34-/b   37+/b   33-/w   0=      0=      
+  36 Abu Bakr Alan           10 Sw Sto 00 0 000 000 37-/w   38+/w3  34-/b   38+/w3  33+/b   
+  37 Olsson Jonas            10 Sw     00 0 000 000 36+/b   35-/w   38-/w3  34-/w   0+!b    
+  38 Polvinen Elsa           15 Fi eGo 00 0 000 000 0+!b    36-/b3  37+/b3  36-/b3  34+/b5  
+
+

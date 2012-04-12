@@ -1,0 +1,37 @@
+.selectedRow {
+	background: red;
+	color: white;
+	cursor: pointer;
+}
+
+
+.sb_games th {
+	background: #6666ee;
+}
+
+.sb_games td {
+	padding: 0.3em;
+	font-size: 80%;
+}
+
+.sb_rank, .sb_komi {
+	text-align: right;
+}
+
+.sb_lost, .sb_won {
+	border-right: 1px solid black;
+}
+
+td.sb_rank {
+	border-right: 1px solid black;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+
+.sb_games tr.sb_odd {
+	background: #cccccc;
+}
+
+.sb_games tr.sb_even {
+	background: #eeeeee;
+}

@@ -1,0 +1,16 @@
+ Pl. Name                 Str Cl. MMS   1    2    3    4    5   Pt  SOS  SOSOS  
+  1 Blomback, Fredrik     4d Sto 15    6+   2+   3+   7+   4+  5    58    305½ 
+  2 Ragnarsson, Carl Joh  3d Lun 14    4+   1-   5+   3+   7+  4    61    303½ 
+  3 Bergsåker, Henric     1d Sto 12½   5+   4+   1-   2-  --   2    63    289½ 
+  4 Weiland, Marcus       2d Sto 12    2-   3-   7+   5+   1-  2    63    301½ 
+  5 Damberg, Viktor       1d Upp 12    3-   7+   2-   4-   9+  2    57½   295½ 
+  6 Stoehr, Marc          2k Sto 10    1-  10-   9-  12+  13+  2    56½   165  
+  7 Merikaarnio, Magnus   1k Sto  9½  --    5-   4-   1-   2-  0    62    284½ 
+  8 Kolk, Martin          4k Sto  9½  14+   9-  --   13+  12+  3    47½    93  
+  9 Karlöf, Mats          4k Sto  9½  10+   8+   6+  --    5-  3    46½   237  
+ 10 Hjalmarsson, Mats     3k Sto  9    9-   6+  12-  --   --   1    45½   178½ 
+ 11 Hagman, Jimmy        15k Sto  3   13-  15+  14+  --   --   2     8     19  
+ 12 Barrud, Fredrik      14k Sto  3   15+  13+  10+   6-   8-  3     5½   167  
+ 13 Edlund, Henrik       14k Bor  2   11+  12-  15+   8-   6-  2     9½   125½ 
+ 14 Boruta, Taro         20k Sto  2    8- free  11-  --   --   1     1½    57  
+ 15 Bergendal, Vilhelm   14k Sto  1   12-  11-  13-  --   --   0     8     23  

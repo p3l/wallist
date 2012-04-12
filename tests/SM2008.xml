@@ -1,0 +1,2273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tournamentResults>
+	<tournamentInfo>
+		<property name="name" value="SM2008"/>
+		<property name="location" value="Västerås"/>
+		<property name="mode" value="MacMahon"/>
+		<property name="rounds" value="6"/>
+		<property name="round" value="6"/>
+		<property displayValue="May 2, 2008" name="dateStart" value="2008-05-02"/>
+		<property displayValue="May 4, 2008" name="dateEnd" value="2008-05-04"/>
+		<property name="komi" value="6.5"/>
+		<property displayValue="comparator.Score" name="scores" value="1"/>
+		<property displayValue="comparator.SOS" name="scores" value="2"/>
+	</tournamentInfo>
+	<results>
+		<player>
+			<property name="name" value="Ragnarsson, Carl Johan "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Lun"/>
+			<property name="strength" value="3D"/>
+			<property displayValue=" 1" name="order" value="0001"/>
+			<property displayValue="1" name="rank" value="1"/>
+			<property name="points" value="5"/>
+			<property name="victories" value="5"/>
+			<score order="1" value="35"/>
+			<score order="2" value="201"/>
+			<round displayValue="1" value="0001">
+				<black name="Bergsåker, Henric (1D)"/>
+				<white name="Ragnarsson, Carl Johan (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="11+/w" game="w" short="11+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Ragnarsson, Carl Johan (3D)"/>
+				<white name="Åkerblom, Charlie (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="7+/b" game="b" short="7+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Ragnarsson, Carl Johan (3D)"/>
+				<white name="Ouchterlony, Erik (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="6+/b" game="b" short="6+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Blomback, Fredrik (4D)"/>
+				<white name="Ragnarsson, Carl Johan (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="2-/w" game="b" short="2-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Börjesson, Martin (2D)"/>
+				<white name="Ragnarsson, Carl Johan (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="5+/w" game="w" short="5+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Ragnarsson, Carl Johan (3D)"/>
+				<white name="Sannes, Pål (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="3+/b" game="b" short="3+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Blomback, Fredrik "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Sto"/>
+			<property name="strength" value="4D"/>
+			<property displayValue=" 2" name="order" value="0002"/>
+			<property displayValue="2" name="rank" value="2"/>
+			<property name="points" value="5"/>
+			<property name="victories" value="5"/>
+			<score order="1" value="35"/>
+			<score order="2" value="200"/>
+			<round displayValue="1" value="0001">
+				<black name="Blomback, Fredrik (4D)"/>
+				<white name="Börjesson, Martin (2D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="5-/b" game="w" short="5-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Karlsson, John (3D)"/>
+				<white name="Blomback, Fredrik (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="8+/w" game="w" short="8+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Blomback, Fredrik (4D)"/>
+				<white name="Li, Martin (5D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="10+/b" game="b" short="10+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Blomback, Fredrik (4D)"/>
+				<white name="Ragnarsson, Carl Johan (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="1+/b" game="b" short="1+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Åkerblom, Charlie (3D)"/>
+				<white name="Blomback, Fredrik (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="7+/w" game="w" short="7+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Strand, Krister (1D)"/>
+				<white name="Blomback, Fredrik (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="9+/w" game="w" short="9+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Sannes, Pål "/>
+			<property name="country" value="No"/>
+			<property name="club" value="Osl"/>
+			<property name="strength" value="4D"/>
+			<property displayValue=" 3" name="order" value="0003"/>
+			<property displayValue="3" name="rank" value="3"/>
+			<property name="points" value="4"/>
+			<property name="victories" value="4"/>
+			<score order="1" value="34"/>
+			<score order="2" value="201"/>
+			<round displayValue="1" value="0001">
+				<black name="Sannes, Pål (4D)"/>
+				<white name="Strand, Krister (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="9+/b" game="b" short="9+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Börjesson, Martin (2D)"/>
+				<white name="Sannes, Pål (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="5+/w" game="w" short="5+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Almroth, Klas (4D)"/>
+				<white name="Sannes, Pål (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="4-/w" game="b" short="4-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Åkerblom, Charlie (3D)"/>
+				<white name="Sannes, Pål (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="7+/w" game="w" short="7+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Sannes, Pål (4D)"/>
+				<white name="Ouchterlony, Erik (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="6+/b" game="b" short="6+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Ragnarsson, Carl Johan (3D)"/>
+				<white name="Sannes, Pål (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="1-/w" game="b" short="1-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Almroth, Klas "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Göt"/>
+			<property name="strength" value="4D"/>
+			<property displayValue=" 4" name="order" value="0004"/>
+			<property displayValue="4" name="rank" value="4"/>
+			<property name="points" value="4"/>
+			<property name="victories" value="4"/>
+			<score order="1" value="34"/>
+			<score order="2" value="197"/>
+			<round displayValue="1" value="0001">
+				<black name="Almroth, Klas (4D)"/>
+				<white name="Karlsson, Peter (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="13+/b" game="b" short="13+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Weiland, Marcus (2D)"/>
+				<white name="Almroth, Klas (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="12-/w" game="b" short="12-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Almroth, Klas (4D)"/>
+				<white name="Sannes, Pål (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="3+/b" game="b" short="3+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Ouchterlony, Erik (3D)"/>
+				<white name="Almroth, Klas (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="6-/w" game="b" short="6-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Karlsson, John (3D)"/>
+				<white name="Almroth, Klas (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="8+/w" game="w" short="8+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Almroth, Klas (4D)"/>
+				<white name="Börjesson, Martin (2D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="5+/b" game="b" short="5+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Börjesson, Martin "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Göt"/>
+			<property name="strength" value="2D"/>
+			<property displayValue=" 5" name="order" value="0005"/>
+			<property displayValue="5" name="rank" value="5"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="33"/>
+			<score order="2" value="203"/>
+			<round displayValue="1" value="0001">
+				<black name="Blomback, Fredrik (4D)"/>
+				<white name="Börjesson, Martin (2D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="2+/w" game="w" short="2+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Börjesson, Martin (2D)"/>
+				<white name="Sannes, Pål (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="3-/b" game="w" short="3-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Strand, Krister (1D)"/>
+				<white name="Börjesson, Martin (2D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="9+/w" game="w" short="9+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Börjesson, Martin (2D)"/>
+				<white name="Karlsson, Peter (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="13+/b" game="b" short="13+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Börjesson, Martin (2D)"/>
+				<white name="Ragnarsson, Carl Johan (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="1-/b" game="w" short="1-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Almroth, Klas (4D)"/>
+				<white name="Börjesson, Martin (2D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="4-/w" game="b" short="4-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Ouchterlony, Erik "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Lin"/>
+			<property name="strength" value="3D"/>
+			<property displayValue=" 6" name="order" value="0006"/>
+			<property displayValue="6" name="rank" value="6"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="33"/>
+			<score order="2" value="202"/>
+			<round displayValue="1" value="0001">
+				<black name="Ouchterlony, Erik (3D)"/>
+				<white name="Karlsson, John (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="8+/b" game="b" short="8+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Ouchterlony, Erik (3D)"/>
+				<white name="Li, Martin (5D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="10+/b" game="b" short="10+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Ragnarsson, Carl Johan (3D)"/>
+				<white name="Ouchterlony, Erik (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="1-/w" game="b" short="1-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Ouchterlony, Erik (3D)"/>
+				<white name="Almroth, Klas (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="4+/b" game="b" short="4+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Sannes, Pål (4D)"/>
+				<white name="Ouchterlony, Erik (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="3-/w" game="b" short="3-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Åkerblom, Charlie (3D)"/>
+				<white name="Ouchterlony, Erik (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="7-/w" game="b" short="7-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Åkerblom, Charlie "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Nor"/>
+			<property name="strength" value="3D"/>
+			<property displayValue=" 7" name="order" value="0007"/>
+			<property displayValue="7" name="rank" value="7"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="33"/>
+			<score order="2" value="201"/>
+			<round displayValue="1" value="0001">
+				<black name="Åkerblom, Charlie (3D)"/>
+				<white name="Chung, Kenny (1K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="14+/b" game="b" short="14+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Ragnarsson, Carl Johan (3D)"/>
+				<white name="Åkerblom, Charlie (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="1-/w" game="b" short="1-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Weiland, Marcus (2D)"/>
+				<white name="Åkerblom, Charlie (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="12+/w" game="w" short="12+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Åkerblom, Charlie (3D)"/>
+				<white name="Sannes, Pål (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="3-/b" game="w" short="3-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Åkerblom, Charlie (3D)"/>
+				<white name="Blomback, Fredrik (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="2-/b" game="w" short="2-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Åkerblom, Charlie (3D)"/>
+				<white name="Ouchterlony, Erik (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="6+/b" game="b" short="6+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Karlsson, John "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Göt"/>
+			<property name="strength" value="3D"/>
+			<property displayValue=" 8" name="order" value="0008"/>
+			<property displayValue="8" name="rank" value="8"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="33"/>
+			<score order="2" value="198"/>
+			<round displayValue="1" value="0001">
+				<black name="Ouchterlony, Erik (3D)"/>
+				<white name="Karlsson, John (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="6-/w" game="b" short="6-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Karlsson, John (3D)"/>
+				<white name="Blomback, Fredrik (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="2-/b" game="w" short="2-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Karlsson, John (3D)"/>
+				<white name="Keskisärkkä, Robin (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="16+/b" game="b" short="16+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Li, Martin (5D)"/>
+				<white name="Karlsson, John (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="10+/w" game="w" short="10+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Karlsson, John (3D)"/>
+				<white name="Almroth, Klas (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="4-/b" game="w" short="4-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Weiland, Marcus (2D)"/>
+				<white name="Karlsson, John (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="12+/w" game="w" short="12+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Strand, Krister "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Väs"/>
+			<property name="strength" value="1D"/>
+			<property displayValue=" 9" name="order" value="0009"/>
+			<property name="rank" value="8"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="33"/>
+			<score order="2" value="198"/>
+			<round displayValue="1" value="0001">
+				<black name="Sannes, Pål (4D)"/>
+				<white name="Strand, Krister (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="3-/w" game="b" short="3-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Karlsson, Peter (1D)"/>
+				<white name="Strand, Krister (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="13+/w" game="w" short="13+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Strand, Krister (1D)"/>
+				<white name="Börjesson, Martin (2D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="5-/b" game="w" short="5-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Strand, Krister (1D)"/>
+				<white name="Weiland, Marcus (2D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="12+/b" game="b" short="12+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Strand, Krister (1D)"/>
+				<white name="Adamsson, Peter (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="15+/b" game="b" short="15+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Strand, Krister (1D)"/>
+				<white name="Blomback, Fredrik (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="2-/b" game="w" short="2-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Li, Martin "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Bor"/>
+			<property name="strength" value="5D"/>
+			<property displayValue=" 10" name="order" value="0010"/>
+			<property displayValue="10" name="rank" value="10"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="33"/>
+			<score order="2" value="195"/>
+			<round displayValue="1" value="0001">
+				<black name="Li, Martin (5D)"/>
+				<white name="Weiland, Marcus (2D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="12+/b" game="b" short="12+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Ouchterlony, Erik (3D)"/>
+				<white name="Li, Martin (5D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="6-/w" game="b" short="6-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Blomback, Fredrik (4D)"/>
+				<white name="Li, Martin (5D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="2-/w" game="b" short="2-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Li, Martin (5D)"/>
+				<white name="Karlsson, John (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="8-/b" game="w" short="8-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Li, Martin (5D)"/>
+				<white name="Eriksson, Mats (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="17+/b" game="b" short="17+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Fridh, Olof (2K)"/>
+				<white name="Li, Martin (5D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="18+/w" game="w" short="18+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Bergsåker, Henric "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Sto"/>
+			<property name="strength" value="1D"/>
+			<property displayValue=" 11" name="order" value="0011"/>
+			<property displayValue="11" name="rank" value="11"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="1"/>
+			<score order="1" value="33"/>
+			<score order="2" value="186"/>
+			<round displayValue="1" value="0001">
+				<black name="Bergsåker, Henric (1D)"/>
+				<white name="Ragnarsson, Carl Johan (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="1-/b" game="w" short="1-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Bergsåker, Henric (1D)"/>
+				<white name="NN"/>
+				<settings handicap="" komi=""/>
+				<result egf="--" game="--" short="--"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Eriksson, Mats (2K)"/>
+				<white name="Bergsåker, Henric (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="17+/w" game="w" short="17+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Bergsåker, Henric (1D)"/>
+				<white name="NN"/>
+				<settings handicap="" komi=""/>
+				<result egf="--" game="--" short="--"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Bergsåker, Henric (1D)"/>
+				<white name="NN"/>
+				<settings handicap="" komi=""/>
+				<result egf="--" game="--" short="--"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Bergsåker, Henric (1D)"/>
+				<white name="NN"/>
+				<settings handicap="" komi=""/>
+				<result egf="--" game="--" short="--"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Weiland, Marcus "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Sto"/>
+			<property name="strength" value="2D"/>
+			<property displayValue=" 12" name="order" value="0012"/>
+			<property displayValue="12" name="rank" value="12"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="32"/>
+			<score order="2" value="197"/>
+			<round displayValue="1" value="0001">
+				<black name="Li, Martin (5D)"/>
+				<white name="Weiland, Marcus (2D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="10-/w" game="b" short="10-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Weiland, Marcus (2D)"/>
+				<white name="Almroth, Klas (4D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="4+/b" game="b" short="4+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Weiland, Marcus (2D)"/>
+				<white name="Åkerblom, Charlie (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="7-/b" game="w" short="7-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Strand, Krister (1D)"/>
+				<white name="Weiland, Marcus (2D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="9-/w" game="b" short="9-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Weiland, Marcus (2D)"/>
+				<white name="Keskisärkkä, Robin (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="16+/b" game="b" short="16+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Weiland, Marcus (2D)"/>
+				<white name="Karlsson, John (3D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="8-/b" game="w" short="8-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Karlsson, Peter "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Sto"/>
+			<property name="strength" value="1D"/>
+			<property displayValue=" 13" name="order" value="0013"/>
+			<property displayValue="13" name="rank" value="13"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="1"/>
+			<score order="1" value="32"/>
+			<score order="2" value="192"/>
+			<round displayValue="1" value="0001">
+				<black name="Almroth, Klas (4D)"/>
+				<white name="Karlsson, Peter (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="4-/w" game="b" short="4-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Karlsson, Peter (1D)"/>
+				<white name="Strand, Krister (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="9-/b" game="w" short="9-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Chung, Kenny (1K)"/>
+				<white name="Karlsson, Peter (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="14+/w" game="w" short="14+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Börjesson, Martin (2D)"/>
+				<white name="Karlsson, Peter (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="5-/w" game="b" short="5-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Karlsson, Peter (1D)"/>
+				<white name="NN"/>
+				<settings handicap="" komi=""/>
+				<result egf="--" game="--" short="--"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Karlsson, Peter (1D)"/>
+				<white name="NN"/>
+				<settings handicap="" komi=""/>
+				<result egf="--" game="--" short="--"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Chung, Kenny "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Nor"/>
+			<property name="strength" value="1K"/>
+			<property displayValue=" 14" name="order" value="0014"/>
+			<property displayValue="14" name="rank" value="14"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="32"/>
+			<score order="2" value="188.5"/>
+			<round displayValue="1" value="0001">
+				<black name="Åkerblom, Charlie (3D)"/>
+				<white name="Chung, Kenny (1K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="7-/w" game="b" short="7-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Chung, Kenny (1K)"/>
+				<white name="Kylmänen, Kai (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="21+/b" game="b" short="21+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Chung, Kenny (1K)"/>
+				<white name="Karlsson, Peter (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="13-/b" game="w" short="13-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Adamsson, Peter (2K)"/>
+				<white name="Chung, Kenny (1K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="15-/w" game="b" short="15-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Stoehr, Marc (2K)"/>
+				<white name="Chung, Kenny (1K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="22+/w" game="w" short="22+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Keskisärkkä, Robin (2K)"/>
+				<white name="Chung, Kenny (1K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="16+/w" game="w" short="16+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Adamsson, Peter "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Sto"/>
+			<property name="strength" value="2K"/>
+			<property displayValue=" 15" name="order" value="0015"/>
+			<property displayValue="15" name="rank" value="15"/>
+			<property name="points" value="4"/>
+			<property name="victories" value="4"/>
+			<score order="1" value="32"/>
+			<score order="2" value="186"/>
+			<round displayValue="1" value="0001">
+				<black name="Keskisärkkä, Robin (2K)"/>
+				<white name="Adamsson, Peter (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="16-/w" game="b" short="16-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Adamsson, Peter (2K)"/>
+				<white name="Hjalmarsson, Mats (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="25+/b" game="b" short="25+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Adamsson, Peter (2K)"/>
+				<white name="Almgren, Tomas (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="24+/b" game="b" short="24+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Adamsson, Peter (2K)"/>
+				<white name="Chung, Kenny (1K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="14+/b" game="b" short="14+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Strand, Krister (1D)"/>
+				<white name="Adamsson, Peter (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="9-/w" game="b" short="9-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Eriksson, Mats (2K)"/>
+				<white name="Adamsson, Peter (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="17+/w" game="w" short="17+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Keskisärkkä, Robin "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Nor"/>
+			<property name="strength" value="2K"/>
+			<property displayValue=" 16" name="order" value="0016"/>
+			<property displayValue="16" name="rank" value="16"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="31"/>
+			<score order="2" value="190"/>
+			<round displayValue="1" value="0001">
+				<black name="Keskisärkkä, Robin (2K)"/>
+				<white name="Adamsson, Peter (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="15+/b" game="b" short="15+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Fridh, Olof (2K)"/>
+				<white name="Keskisärkkä, Robin (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="18+/w" game="w" short="18+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Karlsson, John (3D)"/>
+				<white name="Keskisärkkä, Robin (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="8-/w" game="b" short="8-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Keskisärkkä, Robin (2K)"/>
+				<white name="Stoehr, Marc (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="22+/b" game="b" short="22+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Weiland, Marcus (2D)"/>
+				<white name="Keskisärkkä, Robin (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="12-/w" game="b" short="12-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Keskisärkkä, Robin (2K)"/>
+				<white name="Chung, Kenny (1K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="14-/b" game="w" short="14-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Eriksson, Mats "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Väs"/>
+			<property name="strength" value="2K"/>
+			<property displayValue=" 17" name="order" value="0017"/>
+			<property displayValue="17" name="rank" value="17"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="31"/>
+			<score order="2" value="189"/>
+			<round displayValue="1" value="0001">
+				<black name="Eriksson, Mats (2K)"/>
+				<white name="Almgren, Tomas (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="24+/b" game="b" short="24+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Vu, Hoang (2K)"/>
+				<white name="Eriksson, Mats (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="23+/w" game="w" short="23+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Eriksson, Mats (2K)"/>
+				<white name="Bergsåker, Henric (1D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="11-/b" game="w" short="11-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Fridh, Olof (2K)"/>
+				<white name="Eriksson, Mats (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="18+/w" game="w" short="18+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Li, Martin (5D)"/>
+				<white name="Eriksson, Mats (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="10-/w" game="b" short="10-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Eriksson, Mats (2K)"/>
+				<white name="Adamsson, Peter (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="15-/b" game="w" short="15-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Fridh, Olof "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Fal"/>
+			<property name="strength" value="2K"/>
+			<property displayValue=" 18" name="order" value="0018"/>
+			<property displayValue="18" name="rank" value="18"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="31"/>
+			<score order="2" value="186"/>
+			<round displayValue="1" value="0001">
+				<black name="Fridh, Olof (2K)"/>
+				<white name="Stoehr, Marc (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="22+/b" game="b" short="22+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Fridh, Olof (2K)"/>
+				<white name="Keskisärkkä, Robin (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="16-/b" game="w" short="16-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Gong, Henning (3K)"/>
+				<white name="Fridh, Olof (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="19+/w" game="w" short="19+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Fridh, Olof (2K)"/>
+				<white name="Eriksson, Mats (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="17-/b" game="w" short="17-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Vu, Hoang (2K)"/>
+				<white name="Fridh, Olof (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="23+/w" game="w" short="23+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Fridh, Olof (2K)"/>
+				<white name="Li, Martin (5D)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="10-/b" game="w" short="10-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Gong, Henning "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Nor"/>
+			<property name="strength" value="3K"/>
+			<property displayValue=" 19" name="order" value="0019"/>
+			<property displayValue="19" name="rank" value="19"/>
+			<property name="points" value="4"/>
+			<property name="victories" value="4"/>
+			<score order="1" value="31"/>
+			<score order="2" value="181"/>
+			<round displayValue="1" value="0001">
+				<black name="Hjalmarsson, Mats (3K)"/>
+				<white name="Gong, Henning (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="25+/w" game="w" short="25+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Stoehr, Marc (2K)"/>
+				<white name="Gong, Henning (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="22-/w" game="b" short="22-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Gong, Henning (3K)"/>
+				<white name="Fridh, Olof (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="18-/b" game="w" short="18-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Gong, Henning (3K)"/>
+				<white name="Böttiger, Harald (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="20+/b" game="b" short="20+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Gong, Henning (3K)"/>
+				<white name="Almgren, Tomas (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="24+/b" game="b" short="24+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Vu, Hoang (2K)"/>
+				<white name="Gong, Henning (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="23+/w" game="w" short="23+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Böttiger, Harald "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Sto"/>
+			<property name="strength" value="2K"/>
+			<property displayValue=" 20" name="order" value="0020"/>
+			<property displayValue="20" name="rank" value="20"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="31"/>
+			<score order="2" value="179.5"/>
+			<round displayValue="1" value="0001">
+				<black name="Böttiger, Harald (2K)"/>
+				<white name="Vu, Hoang (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="23-/b" game="w" short="23-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Almgren, Tomas (2K)"/>
+				<white name="Böttiger, Harald (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="24-/w" game="b" short="24-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Böttiger, Harald (2K)"/>
+				<white name="Kylmänen, Kai (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="21+/b" game="b" short="21+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Gong, Henning (3K)"/>
+				<white name="Böttiger, Harald (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="19-/w" game="b" short="19-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Eriksson, Mikael (5K)"/>
+				<white name="Böttiger, Harald (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="27+/w" game="w" short="27+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Böttiger, Harald (2K)"/>
+				<white name="Stoehr, Marc (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="22+/b" game="b" short="22+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Kylmänen, Kai "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Sto"/>
+			<property name="strength" value="3K"/>
+			<property displayValue=" 21" name="order" value="0021"/>
+			<property displayValue="21" name="rank" value="21"/>
+			<property name="points" value="3.5"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="30.5"/>
+			<score order="2" value="174"/>
+			<round displayValue="1" value="0001">
+				<black name="Kylmänen, Kai (3K)"/>
+				<white name="Bing, Jakob (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="28+/b" game="b" short="28+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Chung, Kenny (1K)"/>
+				<white name="Kylmänen, Kai (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="14-/w" game="b" short="14-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Böttiger, Harald (2K)"/>
+				<white name="Kylmänen, Kai (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="20-/w" game="b" short="20-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Kylmänen, Kai (3K)"/>
+				<white name="Söderström, Jan (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="29+/b" game="b" short="29+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Kylmänen, Kai (3K)"/>
+				<white name="NN"/>
+				<settings handicap="" komi=""/>
+				<result egf="--" game="--" short="--"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Kylmänen, Kai (3K)"/>
+				<white name="Hjalmarsson, Mats (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="25+/b" game="b" short="25+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Stoehr, Marc "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Sto"/>
+			<property name="strength" value="2K"/>
+			<property displayValue=" 22" name="order" value="0022"/>
+			<property displayValue="22" name="rank" value="22"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="30"/>
+			<score order="2" value="186"/>
+			<round displayValue="1" value="0001">
+				<black name="Fridh, Olof (2K)"/>
+				<white name="Stoehr, Marc (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="18-/w" game="b" short="18-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Stoehr, Marc (2K)"/>
+				<white name="Gong, Henning (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="19+/b" game="b" short="19+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Vu, Hoang (2K)"/>
+				<white name="Stoehr, Marc (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="23+/w" game="w" short="23+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Keskisärkkä, Robin (2K)"/>
+				<white name="Stoehr, Marc (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="16-/w" game="b" short="16-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Stoehr, Marc (2K)"/>
+				<white name="Chung, Kenny (1K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="14-/b" game="w" short="14-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Böttiger, Harald (2K)"/>
+				<white name="Stoehr, Marc (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="20-/w" game="b" short="20-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Vu, Hoang "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Göt"/>
+			<property name="strength" value="2K"/>
+			<property displayValue=" 23" name="order" value="0023"/>
+			<property displayValue="23" name="rank" value="23"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="30"/>
+			<score order="2" value="184"/>
+			<round displayValue="1" value="0001">
+				<black name="Böttiger, Harald (2K)"/>
+				<white name="Vu, Hoang (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="20+/w" game="w" short="20+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Vu, Hoang (2K)"/>
+				<white name="Eriksson, Mats (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="17-/b" game="w" short="17-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Vu, Hoang (2K)"/>
+				<white name="Stoehr, Marc (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="22-/b" game="w" short="22-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Almgren, Tomas (2K)"/>
+				<white name="Vu, Hoang (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="24+/w" game="w" short="24+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Vu, Hoang (2K)"/>
+				<white name="Fridh, Olof (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="18-/b" game="w" short="18-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Vu, Hoang (2K)"/>
+				<white name="Gong, Henning (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="19-/b" game="w" short="19-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Almgren, Tomas "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Sto"/>
+			<property name="strength" value="2K"/>
+			<property displayValue=" 24" name="order" value="0024"/>
+			<property displayValue="24" name="rank" value="24"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="30"/>
+			<score order="2" value="183"/>
+			<round displayValue="1" value="0001">
+				<black name="Eriksson, Mats (2K)"/>
+				<white name="Almgren, Tomas (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="17-/w" game="b" short="17-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Almgren, Tomas (2K)"/>
+				<white name="Böttiger, Harald (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="20+/b" game="b" short="20+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Adamsson, Peter (2K)"/>
+				<white name="Almgren, Tomas (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="15-/w" game="b" short="15-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Almgren, Tomas (2K)"/>
+				<white name="Vu, Hoang (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="23-/b" game="w" short="23-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Gong, Henning (3K)"/>
+				<white name="Almgren, Tomas (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="19-/w" game="b" short="19-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Almgren, Tomas (2K)"/>
+				<white name="Eriksson, Mikael (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="27+/b" game="b" short="27+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Hjalmarsson, Mats "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Sto"/>
+			<property name="strength" value="3K"/>
+			<property displayValue=" 25" name="order" value="0025"/>
+			<property displayValue="25" name="rank" value="25"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="29"/>
+			<score order="2" value="175.5"/>
+			<round displayValue="1" value="0001">
+				<black name="Hjalmarsson, Mats (3K)"/>
+				<white name="Gong, Henning (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="19-/b" game="w" short="19-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Adamsson, Peter (2K)"/>
+				<white name="Hjalmarsson, Mats (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="15-/w" game="b" short="15-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Hjalmarsson, Mats (3K)"/>
+				<white name="Eriksson, Mikael (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="27-/b" game="w" short="27-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Hjalmarsson, Mats (3K)"/>
+				<white name="Sang, Liya (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="30+/b" game="b" short="30+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Söderström, Jan (5K)"/>
+				<white name="Hjalmarsson, Mats (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="29+/w" game="w" short="29+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Kylmänen, Kai (3K)"/>
+				<white name="Hjalmarsson, Mats (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="21-/w" game="b" short="21-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Johansson, Anders "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Väs"/>
+			<property name="strength" value="6K"/>
+			<property displayValue=" 26" name="order" value="0026"/>
+			<property displayValue="26" name="rank" value="26"/>
+			<property name="points" value="5"/>
+			<property name="victories" value="5"/>
+			<score order="1" value="29"/>
+			<score order="2" value="160"/>
+			<round displayValue="1" value="0001">
+				<black name="Lundqvist, Peter (5K)"/>
+				<white name="Johansson, Anders (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="31+/w" game="w" short="31+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Johansson, Anders (6K)"/>
+				<white name="Eriksson, Mikael (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="27-/b" game="w" short="27-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Mika, Elias (6K)"/>
+				<white name="Johansson, Anders (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="33+/w" game="w" short="33+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Johansson, Anders (6K)"/>
+				<white name="Gradin, Tomas (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="35+/b" game="b" short="35+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Sang, Liya (6K)"/>
+				<white name="Johansson, Anders (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="30+/w" game="w" short="30+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Söderström, Jan (5K)"/>
+				<white name="Johansson, Anders (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="29+/w" game="w" short="29+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Eriksson, Mikael "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Sto"/>
+			<property name="strength" value="5K"/>
+			<property displayValue=" 27" name="order" value="0027"/>
+			<property displayValue="27" name="rank" value="27"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="28"/>
+			<score order="2" value="174"/>
+			<round displayValue="1" value="0001">
+				<black name="Eriksson, Mikael (5K)"/>
+				<white name="Söderström, Jan (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="29-/b" game="w" short="29-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Johansson, Anders (6K)"/>
+				<white name="Eriksson, Mikael (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="26+/w" game="w" short="26+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Hjalmarsson, Mats (3K)"/>
+				<white name="Eriksson, Mikael (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="25+/w" game="w" short="25+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Bing, Jakob (5K)"/>
+				<white name="Eriksson, Mikael (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="28+/w" game="w" short="28+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Eriksson, Mikael (5K)"/>
+				<white name="Böttiger, Harald (2K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="20-/b" game="w" short="20-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Almgren, Tomas (2K)"/>
+				<white name="Eriksson, Mikael (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="24-/w" game="b" short="24-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Bing, Jakob "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Göt"/>
+			<property name="strength" value="5K"/>
+			<property displayValue=" 28" name="order" value="0028"/>
+			<property displayValue="28" name="rank" value="28"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="28"/>
+			<score order="2" value="165.5"/>
+			<round displayValue="1" value="0001">
+				<black name="Kylmänen, Kai (3K)"/>
+				<white name="Bing, Jakob (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="21-/w" game="b" short="21-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Bing, Jakob (5K)"/>
+				<white name="Lundqvist, Peter (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="31+/b" game="b" short="31+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Söderström, Jan (5K)"/>
+				<white name="Bing, Jakob (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="29-/w" game="b" short="29-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Bing, Jakob (5K)"/>
+				<white name="Eriksson, Mikael (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="27-/b" game="w" short="27-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Bing, Jakob (5K)"/>
+				<white name="Mika, Elias (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="33+/b" game="b" short="33+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Sang, Liya (6K)"/>
+				<white name="Bing, Jakob (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="30+/w" game="w" short="30+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Söderström, Jan "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Nor"/>
+			<property name="strength" value="5K"/>
+			<property displayValue=" 29" name="order" value="0029"/>
+			<property displayValue="29" name="rank" value="29"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="27"/>
+			<score order="2" value="171.5"/>
+			<round displayValue="1" value="0001">
+				<black name="Eriksson, Mikael (5K)"/>
+				<white name="Söderström, Jan (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="27+/w" game="w" short="27+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Sang, Liya (6K)"/>
+				<white name="Söderström, Jan (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="30-/w" game="b" short="30-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Söderström, Jan (5K)"/>
+				<white name="Bing, Jakob (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="28+/b" game="b" short="28+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Kylmänen, Kai (3K)"/>
+				<white name="Söderström, Jan (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="21-/w" game="b" short="21-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Söderström, Jan (5K)"/>
+				<white name="Hjalmarsson, Mats (3K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="25-/b" game="w" short="25-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Söderström, Jan (5K)"/>
+				<white name="Johansson, Anders (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="26-/b" game="w" short="26-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Sang, Liya "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Bor"/>
+			<property name="strength" value="6K"/>
+			<property displayValue=" 30" name="order" value="0030"/>
+			<property displayValue="30" name="rank" value="30"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="27"/>
+			<score order="2" value="166"/>
+			<round displayValue="1" value="0001">
+				<black name="Mika, Elias (6K)"/>
+				<white name="Sang, Liya (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="33+/w" game="w" short="33+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Sang, Liya (6K)"/>
+				<white name="Söderström, Jan (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="29+/b" game="b" short="29+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Sang, Liya (6K)"/>
+				<white name="Lundqvist, Peter (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="31+/b" game="b" short="31+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Hjalmarsson, Mats (3K)"/>
+				<white name="Sang, Liya (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="25-/w" game="b" short="25-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Sang, Liya (6K)"/>
+				<white name="Johansson, Anders (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="26-/b" game="w" short="26-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Sang, Liya (6K)"/>
+				<white name="Bing, Jakob (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="28-/b" game="w" short="28-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Lundqvist, Peter "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Gäv"/>
+			<property name="strength" value="5K"/>
+			<property displayValue=" 31" name="order" value="0031"/>
+			<property displayValue="31" name="rank" value="31"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="27"/>
+			<score order="2" value="162"/>
+			<round displayValue="1" value="0001">
+				<black name="Lundqvist, Peter (5K)"/>
+				<white name="Johansson, Anders (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="26-/b" game="w" short="26-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Bing, Jakob (5K)"/>
+				<white name="Lundqvist, Peter (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="28-/w" game="b" short="28-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Sang, Liya (6K)"/>
+				<white name="Lundqvist, Peter (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="30-/w" game="b" short="30-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Lundqvist, Peter (5K)"/>
+				<white name="Åhs, Robert (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="32-/b" game="w" short="32-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Li, Sten (8K)"/>
+				<white name="Lundqvist, Peter (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="34+/w" game="w" short="34+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Lundqvist, Peter (5K)"/>
+				<white name="Ahlström, Mattias (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="36+/b" game="b" short="36+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Åhs, Robert "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Kar"/>
+			<property name="strength" value="7K"/>
+			<property displayValue=" 32" name="order" value="0032"/>
+			<property displayValue="32" name="rank" value="32"/>
+			<property name="points" value="4"/>
+			<property name="victories" value="4"/>
+			<score order="1" value="27"/>
+			<score order="2" value="154"/>
+			<round displayValue="1" value="0001">
+				<black name="Li, Sten (8K)"/>
+				<white name="Åhs, Robert (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="34-/w" game="b" short="34-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Åhs, Robert (7K)"/>
+				<white name="Lindgren, Sofia (8K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="37-/b" game="w" short="37-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Åhs, Robert (7K)"/>
+				<white name="Ahlström, Mattias (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="36+/b" game="b" short="36+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Lundqvist, Peter (5K)"/>
+				<white name="Åhs, Robert (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="31+/w" game="w" short="31+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Gradin, Tomas (7K)"/>
+				<white name="Åhs, Robert (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="35+/w" game="w" short="35+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Åhs, Robert (7K)"/>
+				<white name="Mika, Elias (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="33+/b" game="b" short="33+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Mika, Elias "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Upp"/>
+			<property name="strength" value="6K"/>
+			<property displayValue=" 33" name="order" value="0033"/>
+			<property displayValue="33" name="rank" value="33"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="26"/>
+			<score order="2" value="161"/>
+			<round displayValue="1" value="0001">
+				<black name="Mika, Elias (6K)"/>
+				<white name="Sang, Liya (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="30-/b" game="w" short="30-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Ahlström, Mattias (7K)"/>
+				<white name="Mika, Elias (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="36+/w" game="w" short="36+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Mika, Elias (6K)"/>
+				<white name="Johansson, Anders (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="26-/b" game="w" short="26-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Mika, Elias (6K)"/>
+				<white name="Lindgren, Sofia (8K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="37+/b" game="b" short="37+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Bing, Jakob (5K)"/>
+				<white name="Mika, Elias (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="28-/w" game="b" short="28-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Åhs, Robert (7K)"/>
+				<white name="Mika, Elias (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="32-/w" game="b" short="32-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Li, Sten "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Bor"/>
+			<property name="strength" value="8K"/>
+			<property displayValue=" 34" name="order" value="0034"/>
+			<property displayValue="34" name="rank" value="34"/>
+			<property name="points" value="4"/>
+			<property name="victories" value="4"/>
+			<score order="1" value="26"/>
+			<score order="2" value="154"/>
+			<round displayValue="1" value="0001">
+				<black name="Li, Sten (8K)"/>
+				<white name="Åhs, Robert (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="32+/b" game="b" short="32+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Li, Sten (8K)"/>
+				<white name="Gradin, Tomas (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="35-/b" game="w" short="35-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Lindholm, Joakim (14K)"/>
+				<white name="Li, Sten (8K)"/>
+				<settings handicap="4" komi="0.5"/>
+				<result egf="38+/w4" game="w" short="38+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Ahlström, Mattias (7K)"/>
+				<white name="Li, Sten (8K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="36+/w" game="w" short="36+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Li, Sten (8K)"/>
+				<white name="Lundqvist, Peter (5K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="31-/b" game="w" short="31-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Lindgren, Sofia (8K)"/>
+				<white name="Li, Sten (8K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="37+/w" game="w" short="37+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Gradin, Tomas "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Lun"/>
+			<property name="strength" value="7K"/>
+			<property displayValue=" 35" name="order" value="0035"/>
+			<property displayValue="35" name="rank" value="35"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="25"/>
+			<score order="2" value="157"/>
+			<round displayValue="1" value="0001">
+				<black name="Gradin, Tomas (7K)"/>
+				<white name="Ahlström, Mattias (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="36-/b" game="w" short="36-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Li, Sten (8K)"/>
+				<white name="Gradin, Tomas (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="34+/w" game="w" short="34+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Lindgren, Sofia (8K)"/>
+				<white name="Gradin, Tomas (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="37+/w" game="w" short="37+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Johansson, Anders (6K)"/>
+				<white name="Gradin, Tomas (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="26-/w" game="b" short="26-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Gradin, Tomas (7K)"/>
+				<white name="Åhs, Robert (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="32-/b" game="w" short="32-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Lindholm, Joakim (14K)"/>
+				<white name="Gradin, Tomas (7K)"/>
+				<settings handicap="4" komi="0.5"/>
+				<result egf="38-/w4" game="b" short="38-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Ahlström, Mattias "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Nor"/>
+			<property name="strength" value="7K"/>
+			<property displayValue=" 36" name="order" value="0036"/>
+			<property displayValue="36" name="rank" value="36"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="25"/>
+			<score order="2" value="155"/>
+			<round displayValue="1" value="0001">
+				<black name="Gradin, Tomas (7K)"/>
+				<white name="Ahlström, Mattias (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="35+/w" game="w" short="35+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Ahlström, Mattias (7K)"/>
+				<white name="Mika, Elias (6K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="33-/b" game="w" short="33-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Åhs, Robert (7K)"/>
+				<white name="Ahlström, Mattias (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="32-/w" game="b" short="32-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Ahlström, Mattias (7K)"/>
+				<white name="Li, Sten (8K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="34-/b" game="w" short="34-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Woodhouse, Alexander (9K)"/>
+				<white name="Ahlström, Mattias (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="40+/w" game="w" short="40+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Lundqvist, Peter (5K)"/>
+				<white name="Ahlström, Mattias (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="31-/w" game="b" short="31-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Lindgren, Sofia "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Göt"/>
+			<property name="strength" value="8K"/>
+			<property displayValue=" 37" name="order" value="0037"/>
+			<property displayValue="37" name="rank" value="37"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="25"/>
+			<score order="2" value="153"/>
+			<round displayValue="1" value="0001">
+				<black name="Lindgren, Sofia (8K)"/>
+				<white name="Woodhouse, Alexander (9K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="40+/b" game="b" short="40+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Åhs, Robert (7K)"/>
+				<white name="Lindgren, Sofia (8K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="32+/w" game="w" short="32+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Lindgren, Sofia (8K)"/>
+				<white name="Gradin, Tomas (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="35-/b" game="w" short="35-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Mika, Elias (6K)"/>
+				<white name="Lindgren, Sofia (8K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="33-/w" game="b" short="33-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Edlund, Henrik (14K)"/>
+				<white name="Lindgren, Sofia (8K)"/>
+				<settings handicap="4" komi="0.5"/>
+				<result egf="39+/w4" game="w" short="39+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Lindgren, Sofia (8K)"/>
+				<white name="Li, Sten (8K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="34-/b" game="w" short="34-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Lindholm, Joakim "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Väs"/>
+			<property name="strength" value="14K"/>
+			<property displayValue=" 38" name="order" value="0038"/>
+			<property displayValue="38" name="rank" value="38"/>
+			<property name="points" value="5"/>
+			<property name="victories" value="5"/>
+			<score order="1" value="25"/>
+			<score order="2" value="141"/>
+			<round displayValue="1" value="0001">
+				<black name="Lindholm, Joakim (14K)"/>
+				<white name="Höglund, Sebastian (15K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="42+/b" game="b" short="42+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Modigh, Sara (14K)"/>
+				<white name="Lindholm, Joakim (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="44+/w" game="w" short="44+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Lindholm, Joakim (14K)"/>
+				<white name="Li, Sten (8K)"/>
+				<settings handicap="4" komi="0.5"/>
+				<result egf="34-/b4" game="w" short="34-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Ljung, Christoffer (16K)"/>
+				<white name="Lindholm, Joakim (14K)"/>
+				<settings handicap="" komi="0.5"/>
+				<result egf="41+/w1" game="w" short="41+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Berglund, Sara-Linn (14K)"/>
+				<white name="Lindholm, Joakim (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="46+/w" game="w" short="46+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Lindholm, Joakim (14K)"/>
+				<white name="Gradin, Tomas (7K)"/>
+				<settings handicap="4" komi="0.5"/>
+				<result egf="35+/b4" game="b" short="35+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Edlund, Henrik "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Bor"/>
+			<property name="strength" value="14K"/>
+			<property displayValue=" 39" name="order" value="0039"/>
+			<property displayValue="39" name="rank" value="39"/>
+			<property name="points" value="5"/>
+			<property name="victories" value="5"/>
+			<score order="1" value="25"/>
+			<score order="2" value="139"/>
+			<round displayValue="1" value="0001">
+				<black name="Eriksson, Carl (18K)"/>
+				<white name="Edlund, Henrik (14K)"/>
+				<settings handicap="3" komi=""/>
+				<result egf="45+/w3" game="w" short="45+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Woodhouse, Alexander (9K)"/>
+				<white name="Edlund, Henrik (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="40+/w" game="w" short="40+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Ljung, Christoffer (16K)"/>
+				<white name="Edlund, Henrik (14K)"/>
+				<settings handicap="" komi="0.5"/>
+				<result egf="41+/w1" game="w" short="41+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Edlund, Henrik (14K)"/>
+				<white name="Modigh, Sara (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="44+/b" game="b" short="44+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Edlund, Henrik (14K)"/>
+				<white name="Lindgren, Sofia (8K)"/>
+				<settings handicap="4" komi="0.5"/>
+				<result egf="37-/b4" game="w" short="37-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Höglund, Sebastian (15K)"/>
+				<white name="Edlund, Henrik (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="42+/w" game="w" short="42+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Woodhouse, Alexander "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Nor"/>
+			<property name="strength" value="9K"/>
+			<property displayValue=" 40" name="order" value="0040"/>
+			<property displayValue="40" name="rank" value="40"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="24"/>
+			<score order="2" value="143"/>
+			<round displayValue="1" value="0001">
+				<black name="Lindgren, Sofia (8K)"/>
+				<white name="Woodhouse, Alexander (9K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="37-/w" game="b" short="37-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Woodhouse, Alexander (9K)"/>
+				<white name="Edlund, Henrik (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="39-/b" game="w" short="39-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Helgesson, Calle (18K)"/>
+				<white name="Woodhouse, Alexander (9K)"/>
+				<settings handicap="8" komi="0.5"/>
+				<result egf="47+/w8" game="w" short="47+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Kusuran, Vedad (14K)"/>
+				<white name="Woodhouse, Alexander (9K)"/>
+				<settings handicap="4" komi="0.5"/>
+				<result egf="43+/w4" game="w" short="43+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Woodhouse, Alexander (9K)"/>
+				<white name="Ahlström, Mattias (7K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="36-/b" game="w" short="36-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Ljung, Christoffer (16K)"/>
+				<white name="Woodhouse, Alexander (9K)"/>
+				<settings handicap="6" komi="0.5"/>
+				<result egf="41+/w6" game="w" short="41+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Ljung, Christoffer "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Nor"/>
+			<property name="strength" value="16K"/>
+			<property displayValue=" 41" name="order" value="0041"/>
+			<property displayValue="41" name="rank" value="41"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="23"/>
+			<score order="2" value="141"/>
+			<round displayValue="1" value="0001">
+				<black name="Ljung, Christoffer (16K)"/>
+				<white name="Kusuran, Vedad (14K)"/>
+				<settings handicap="" komi=""/>
+				<result egf="43+/b1" game="b" short="43+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Ljung, Christoffer (16K)"/>
+				<white name="Berglund, Sara-Linn (14K)"/>
+				<settings handicap="" komi=""/>
+				<result egf="46+/b1" game="b" short="46+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Ljung, Christoffer (16K)"/>
+				<white name="Edlund, Henrik (14K)"/>
+				<settings handicap="" komi="0.5"/>
+				<result egf="39-/b1" game="w" short="39-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Ljung, Christoffer (16K)"/>
+				<white name="Lindholm, Joakim (14K)"/>
+				<settings handicap="" komi="0.5"/>
+				<result egf="38-/b1" game="w" short="38-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Eriksson, Carl (18K)"/>
+				<white name="Ljung, Christoffer (16K)"/>
+				<settings handicap="" komi="0.5"/>
+				<result egf="45+/w1" game="w" short="45+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Ljung, Christoffer (16K)"/>
+				<white name="Woodhouse, Alexander (9K)"/>
+				<settings handicap="6" komi="0.5"/>
+				<result egf="40-/b6" game="w" short="40-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Höglund, Sebastian "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Gäv"/>
+			<property name="strength" value="15K"/>
+			<property displayValue=" 42" name="order" value="0042"/>
+			<property displayValue="42" name="rank" value="42"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="23"/>
+			<score order="2" value="139"/>
+			<round displayValue="1" value="0001">
+				<black name="Lindholm, Joakim (14K)"/>
+				<white name="Höglund, Sebastian (15K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="38-/w" game="b" short="38-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Höglund, Sebastian (15K)"/>
+				<white name="Kusuran, Vedad (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="43-/b" game="w" short="43-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Höglund, Sebastian (15K)"/>
+				<white name="NN"/>
+				<settings handicap="" komi=""/>
+				<result egf="0+!b" game="b!" short="0+!"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Eriksson, Carl (18K)"/>
+				<white name="Höglund, Sebastian (15K)"/>
+				<settings handicap="2" komi="0.5"/>
+				<result egf="45+/w2" game="w" short="45+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Modigh, Sara (14K)"/>
+				<white name="Höglund, Sebastian (15K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="44+/w" game="w" short="44+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Höglund, Sebastian (15K)"/>
+				<white name="Edlund, Henrik (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="39-/b" game="w" short="39-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Kusuran, Vedad "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Kar"/>
+			<property name="strength" value="14K"/>
+			<property displayValue=" 43" name="order" value="0043"/>
+			<property displayValue="43" name="rank" value="43"/>
+			<property name="points" value="3"/>
+			<property name="victories" value="3"/>
+			<score order="1" value="23"/>
+			<score order="2" value="136"/>
+			<round displayValue="1" value="0001">
+				<black name="Ljung, Christoffer (16K)"/>
+				<white name="Kusuran, Vedad (14K)"/>
+				<settings handicap="" komi=""/>
+				<result egf="41-/w1" game="b" short="41-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Höglund, Sebastian (15K)"/>
+				<white name="Kusuran, Vedad (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="42+/w" game="w" short="42+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Eriksson, Carl (18K)"/>
+				<white name="Kusuran, Vedad (14K)"/>
+				<settings handicap="3" komi="0.5"/>
+				<result egf="45+/w3" game="w" short="45+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Kusuran, Vedad (14K)"/>
+				<white name="Woodhouse, Alexander (9K)"/>
+				<settings handicap="4" komi="0.5"/>
+				<result egf="40-/b4" game="w" short="40-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Helgesson, Calle (18K)"/>
+				<white name="Kusuran, Vedad (14K)"/>
+				<settings handicap="3" komi="0.5"/>
+				<result egf="47-/w3" game="b" short="47-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Kusuran, Vedad (14K)"/>
+				<white name="Berglund, Sara-Linn (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="46+/b" game="b" short="46+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Modigh, Sara "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Nor"/>
+			<property name="strength" value="14K"/>
+			<property displayValue=" 44" name="order" value="0044"/>
+			<property displayValue="44" name="rank" value="44"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="22"/>
+			<score order="2" value="139"/>
+			<round displayValue="1" value="0001">
+				<black name="Helgesson, Calle (18K)"/>
+				<white name="Modigh, Sara (14K)"/>
+				<settings handicap="3" komi=""/>
+				<result egf="47+/w3" game="w" short="47+"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Modigh, Sara (14K)"/>
+				<white name="Lindholm, Joakim (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="38-/b" game="w" short="38-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Berglund, Sara-Linn (14K)"/>
+				<white name="Modigh, Sara (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="46+/w" game="w" short="46+"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Edlund, Henrik (14K)"/>
+				<white name="Modigh, Sara (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="39-/w" game="b" short="39-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Modigh, Sara (14K)"/>
+				<white name="Höglund, Sebastian (15K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="42-/b" game="w" short="42-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Eriksson, Carl (18K)"/>
+				<white name="Modigh, Sara (14K)"/>
+				<settings handicap="3" komi="0.5"/>
+				<result egf="45-/w3" game="b" short="45-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Eriksson, Carl "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Nor"/>
+			<property name="strength" value="18K"/>
+			<property displayValue=" 45" name="order" value="0045"/>
+			<property displayValue="45" name="rank" value="45"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="22"/>
+			<score order="2" value="138"/>
+			<round displayValue="1" value="0001">
+				<black name="Eriksson, Carl (18K)"/>
+				<white name="Edlund, Henrik (14K)"/>
+				<settings handicap="3" komi=""/>
+				<result egf="39-/b3" game="w" short="39-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Helgesson, Calle (18K)"/>
+				<white name="Eriksson, Carl (18K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="47+/w" game="w" short="47+"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Eriksson, Carl (18K)"/>
+				<white name="Kusuran, Vedad (14K)"/>
+				<settings handicap="3" komi="0.5"/>
+				<result egf="43-/b3" game="w" short="43-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Eriksson, Carl (18K)"/>
+				<white name="Höglund, Sebastian (15K)"/>
+				<settings handicap="2" komi="0.5"/>
+				<result egf="42-/b2" game="w" short="42-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Eriksson, Carl (18K)"/>
+				<white name="Ljung, Christoffer (16K)"/>
+				<settings handicap="" komi="0.5"/>
+				<result egf="41-/b1" game="w" short="41-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Eriksson, Carl (18K)"/>
+				<white name="Modigh, Sara (14K)"/>
+				<settings handicap="3" komi="0.5"/>
+				<result egf="44+/b3" game="b" short="44+"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Berglund, Sara-Linn "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Väs"/>
+			<property name="strength" value="14K"/>
+			<property displayValue=" 46" name="order" value="0046"/>
+			<property displayValue="46" name="rank" value="46"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="22"/>
+			<score order="2" value="136"/>
+			<round displayValue="1" value="0001">
+				<black name="Berglund, Sara-Linn (14K)"/>
+				<white name="NN"/>
+				<settings handicap="" komi=""/>
+				<result egf="0+!b" game="b!" short="0+!"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Ljung, Christoffer (16K)"/>
+				<white name="Berglund, Sara-Linn (14K)"/>
+				<settings handicap="" komi=""/>
+				<result egf="41-/w1" game="b" short="41-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Berglund, Sara-Linn (14K)"/>
+				<white name="Modigh, Sara (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="44-/b" game="w" short="44-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Helgesson, Calle (18K)"/>
+				<white name="Berglund, Sara-Linn (14K)"/>
+				<settings handicap="3" komi="0.5"/>
+				<result egf="47+/w3" game="w" short="47+"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Berglund, Sara-Linn (14K)"/>
+				<white name="Lindholm, Joakim (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="38-/b" game="w" short="38-"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Kusuran, Vedad (14K)"/>
+				<white name="Berglund, Sara-Linn (14K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="43-/w" game="b" short="43-"/>
+			</round>
+		</player>
+		<player>
+			<property name="name" value="Helgesson, Calle "/>
+			<property name="country" value="SE"/>
+			<property name="club" value="Gäv"/>
+			<property name="strength" value="18K"/>
+			<property displayValue=" 47" name="order" value="0047"/>
+			<property displayValue="47" name="rank" value="47"/>
+			<property name="points" value="2"/>
+			<property name="victories" value="2"/>
+			<score order="1" value="22"/>
+			<score order="2" value="134"/>
+			<round displayValue="1" value="0001">
+				<black name="Helgesson, Calle (18K)"/>
+				<white name="Modigh, Sara (14K)"/>
+				<settings handicap="3" komi=""/>
+				<result egf="44-/b3" game="w" short="44-"/>
+			</round>
+			<round displayValue="2" value="0002">
+				<black name="Helgesson, Calle (18K)"/>
+				<white name="Eriksson, Carl (18K)"/>
+				<settings handicap="" komi="6.5"/>
+				<result egf="45-/b" game="w" short="45-"/>
+			</round>
+			<round displayValue="3" value="0003">
+				<black name="Helgesson, Calle (18K)"/>
+				<white name="Woodhouse, Alexander (9K)"/>
+				<settings handicap="8" komi="0.5"/>
+				<result egf="40-/b8" game="w" short="40-"/>
+			</round>
+			<round displayValue="4" value="0004">
+				<black name="Helgesson, Calle (18K)"/>
+				<white name="Berglund, Sara-Linn (14K)"/>
+				<settings handicap="3" komi="0.5"/>
+				<result egf="46-/b3" game="w" short="46-"/>
+			</round>
+			<round displayValue="5" value="0005">
+				<black name="Helgesson, Calle (18K)"/>
+				<white name="Kusuran, Vedad (14K)"/>
+				<settings handicap="3" komi="0.5"/>
+				<result egf="43+/b3" game="b" short="43+"/>
+			</round>
+			<round displayValue="6" value="0006">
+				<black name="Helgesson, Calle (18K)"/>
+				<white name="NN"/>
+				<settings handicap="" komi=""/>
+				<result egf="0+!b" game="b!" short="0+!"/>
+			</round>
+		</player>
+	</results>
+</tournamentResults>

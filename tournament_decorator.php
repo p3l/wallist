@@ -2,6 +2,8 @@
 
 include 'tournament.php';
 
+//FIXME: Separate strings for internationalisation
+
 class TournamentDecorator {
 	private $resource;
 	private $data;
@@ -61,7 +63,7 @@ class TournamentDecorator {
 		}
 	}
 	
-	function json_get_opponents($id,$callback="") {
+	private function json_get_opponents($id,$callback="") {
 		date_default_timezone_set('UTC');
 		$f = stat($this->file);
 		$p = &$this->tournament->players;
@@ -86,8 +88,14 @@ class TournamentDecorator {
 			$items[] = array(
 				"round"    => $g->round,
 				"rank"     => $op->strength,
-				"winner"   => array( "name" => $win->name, "rank" => $win->strength, "stone" => ($g->white ? ($g->winner==$g->white?"white":"black") : "")),
-				"loser"    => array( "name" => $lose->name, "rank" => $lose->strength, "stone" => ($g->white ? ($g->loser==$g->white?"white":"black") : "")),
+				"winner"   => array( "name" => $win->name,
+									 "rank" => $win->strength,
+									 "stone" => (!(($g->white==-1)or($g->white==0)or($g->black==0)) ?
+									 	($g->winner==$g->white?"white":"black") : null)),
+				"loser"    => array( "name" => $lose->name,
+									 "rank" => $lose->strength,
+									 "stone" => (!(($g->white==-1)or($g->white==0)or($g->black==0)) ?
+									 	($g->loser==$g->white?"white":"black") : null)),
 				"white"    => $p[$g->white]->name,
 				"black"    => $p[$g->black]->name,
 				"handicap" => $g->handicap,
@@ -122,11 +130,11 @@ class TournamentDecorator {
       $int=substr($str,0,strlen($str)-2);
       $dec = "½";
     }
-    echo "<td class='wall_".$type."'>".$int."</td>";
+    echo "    <td class='wall_".$type."'>".$int."</td>\n";
     if(substr($type,0,5)=="round") {
-      echo "<td class='wall_round_dec'>".$dec."</td>";
+      echo "    <td class='wall_round_dec'>".$dec."</td>\n";
     } else {
-      echo "<td class='wall_".$type."_dec'>".$dec."</td>";
+      echo "    <td class='wall_".$type."_dec'>".$dec."</td>\n";
     }
   }
 
@@ -183,20 +191,30 @@ class TournamentDecorator {
 		echo "</thead>\n";
 		echo "<tbody>\n";
 		
+		//FIXME: Remove odd/even and replace with javascript
 		foreach($this->tournament->players as $p) {
 			echo "  <tr id='sb_".($p->order)."' class='wall_row_".(($p->order%2)?"odd":"even")."'>\n";
+
+			// If player has more than $limit victories show marker for doing well
 			echo "    <td>";
 			if((float)$p->victories > $limit) {
 				echo $this->marker;
 			}
 			echo "</td>\n";
+			
+			// Place in tournament
+			//   If two or more player have the same position show number on first in list
 			echo "    <td class='wall_place'>";
 			if($this->last_place != $p->order) {
 				echo $p->order;
 				$this->last_place = $p->order;
 			} 
 			echo "</td>\n";
+			
+			// Name of player
 			echo "    <td class='wall_name'>".$p->name."</td>\n";
+
+			// Country of player (if used)
 			if($this->tournament->has_country) {
 				echo "    <td class='wall_country'>";
 				if(isset($this->countries[strtolower($p->country)]))
@@ -205,57 +223,66 @@ class TournamentDecorator {
 				   echo $p->country;
 				echo "</td>\n";
 			}
-			echo "    <td class='wall_club'>";
-      if(isset($this->clubs[$p->club]))
-        echo "<acronym title='".$this->clubs[$p->club]."'>".$p->club."</acronym>";
-			else
-			  echo $p->club;
-      echo "</td>\n";
-      echo "    <td class='wall_rank'>".$p->strength."</td>";
 			
+			// Club of player
+			echo "    <td class='wall_club'>";
+			if(isset($this->clubs[$p->club]))
+				echo "<acronym title='".$this->clubs[$p->club]."'>".$p->club."</acronym>";
+			else
+				echo $p->club;
+			echo "</td>\n";
+
+			// Rank of player
+			echo "    <td class='wall_rank'>".$p->strength."</td>\n";
+
+			// Print score (only macmahon so far)			
 			if($this->tournament->mode == 'MACMAHON') {
 				$this->print_int($p->score[1], 'mms');
 			}
 
+			// Print games
 			foreach($p->games as $g) {
 				echo "    <td class='wall_round_result'><acronym class='wall_round_acronym' title='";
-        // If the player did not play this round
-        if($g == null) {
-          // The last table cell is for exclamation marks - pure eyecandy
-          echo "Stod över ronden'>--&nbsp;</acronym></td><td></td>\n";
-        } 
-        // If the player had a automatic win (odd number of players)
-        if($g !=null and $g->opponent == -1) { 
-          echo "Automatisk vinst'>free</acronym></td><td></td>";
-        } elseif($g !=null) {
-          switch($g->result) {
-            case "+": echo "Vinst mot"; break;
-            case "-": echo "Förlust mot"; break;
-            case "=": echo "Jigo mot"; break;
-            case "+!": echo "Tilldömd vinst mot"; break;
-            case "-!": echo "Tilldömd förlust mot"; break;
-            case "=!": echo "Tilldömd jigo"; break;
-			case "--": echo "Stod över ronden"; break;
-			case "free": echo "Frirond"; break;	//FIXME: Needs adressing in the output below.. substr(,0,1)
-            default:
-            echo "Okänt resultat (".$g->result.") mot";
-          }
-          echo " ".$this->tournament->players[$g->opponent]->name." [".
-               $this->tournament->players[$g->opponent]->strength."]".
-               "'>".$g->opponent.substr($g->result,0,1)."</acronym></td>";
-          if(strlen($g->result)>1)
-            echo "<td class='wall_round_result_judged'>!</td>";
-          else
-            echo "<td></td>\n";
-        }
+				// If the player did not play this round
+				if($g === null) {
+					// The last table cell here is for exclamation marks - pure eyecandy
+					echo "Stod över ronden'>--&nbsp;</acronym></td><td></td>\n";
+				} 
+				// If the player had a automatic win (odd number of players)
+				if($g !==null and $g->opponent == -1) { 
+					echo "Automatisk vinst'>free</acronym></td><td></td>";
+				} elseif($g !==null) {
+					switch($g->result) {
+						case "+": echo "Vinst mot"; break;
+						case "-": echo "Förlust mot"; break;
+						case "=": echo "Jigo mot"; break;
+						case "+!": echo "Tilldömd vinst mot"; break;
+						case "-!": echo "Tilldömd förlust mot"; break;
+						case "=!": echo "Tilldömd jigo"; break;
+						case "--": echo "Stod över ronden"; break;
+						case "free": echo "Frirond"; break; //FIXME: Needs adressing in the output below.. substr(,0,1)
+						default:
+							echo "Okänt resultat (".$g->result.") mot";
+					}
+					//FIXME: Check for bounds of $g->opponent
+					//What happens with +!,-! results?
+					echo " ".$this->tournament->players[$g->opponent]->name." [".
+						$this->tournament->players[$g->opponent]->strength."]".
+						"'>".$g->opponent.substr($g->result,0,2)."</acronym></td>";
+					if($g->judged)
+						echo "<td class='wall_round_result_judged'>!</td>";
+					else
+						echo "<td></td>\n";
+				}
 			}
 			
-			echo "    <td class='wall_pt'>".$p->points."</td>";
+			// Print player points
+			echo "    <td class='wall_pt'>".$p->points."</td>\n";
+			
+			// Print SOS, SOSOS, SODOS			
 			if(count($p->score)>1) {
 				for($i=2; $i<=count($p->score); $i++) {
-					echo "    ";
 					$this->print_int($p->score[$i], "round_".strtolower($this->tournament->score[$i]));
-					echo "\n";
 				}
 			}
 			echo "  </tr>\n";

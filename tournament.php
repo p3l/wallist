@@ -12,9 +12,11 @@ class TGame {
 	public $opponent; 	// Integer pointing to Tournament->players
 	public $winner;		// Integer pointing to Tournament->players
 	public $loser;		// Integer pointing to Tournament->players
+	public $judged;		// Boolean telling if the result was decided by referee
 	
 	public function __construct() {
 		//FIXME: Set default values (esp index ptr =-1)
+		$this->judged = false;
 	}
 }
 

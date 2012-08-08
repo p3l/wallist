@@ -66,13 +66,16 @@ class GoblinParser {
 				$this->game->result = $result;
 				$this->game->opponent = $opponent;
 				$this->game->game = trim($attrs["GAME"]);
+				$this->game->judged = (strchr($result, "!")?true:false);
 				
 				if($result == "+" or $result == "+!") {
 					$this->game->winner = $this->player->order;
 					$this->game->loser = $opponent;
+					//$this->game->result = "+";
 				} elseif($result == "-" or $result == "-!") {
 					$this->game->winner = $opponent;
 					$this->game->loser = $this->player->order;
+					//$this->game->result = "-";
 				}
 				
 				if($winner == "w") {
@@ -82,6 +85,14 @@ class GoblinParser {
 					$this->game->white = $opponent;
 					$this->game->black = $this->player->order;
 				}
+			} else {
+				$this->game->result = "--";
+				$this->game->game = "--";
+				$this->game->winner = -1;
+				$this->game->loser = -1;
+				$this->game->opponent = null;
+				$this->game->white = -1;
+				$this->game->black = -1;
 			}
 			
 			break;

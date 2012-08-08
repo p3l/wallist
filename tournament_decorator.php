@@ -266,9 +266,10 @@ class TournamentDecorator {
 					}
 					//FIXME: Check for bounds of $g->opponent
 					//What happens with +!,-! results?
-					echo " ".$this->tournament->players[$g->opponent]->name." [".
-						$this->tournament->players[$g->opponent]->strength."]".
-						"'>".$g->opponent.substr($g->result,0,2)."</acronym></td>";
+					if($g->opponent > 0)
+						echo " ".$this->tournament->players[$g->opponent]->name." [".
+						$this->tournament->players[$g->opponent]->strength."]";
+					echo "'>".$g->opponent.substr($g->result,0,2)."</acronym></td>";
 					if($g->judged)
 						echo "<td class='wall_round_result_judged'>!</td>";
 					else
